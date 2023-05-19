@@ -27,4 +27,9 @@ create(): void {
     }
   })
 }
+
+cancel(): void{
+  this.router.navigate(['categorias'])
+}
+
 }
